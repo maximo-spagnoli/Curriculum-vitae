@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="img/M.webp" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header" id="Bar">
+        <header>
+            <div class="logo">
+                <a href="#Bar">Maximo Spagnoli</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+<div>
+
+    <br>
+    <br>
+    <br>
+</div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/yto.jpeg" alt="">
+            </div>
+            <h1>MAXIMO SPAGNOLI</h1>
+            <h2>Progamador JR Backend & Frontend</h2>
+            <div class="redes">
+                <a href="https://wa.me/543412801807"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://twitter.com/maxiispagnoli"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/maxiiispagnoli/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/m%C3%A1ximo-spagnoli/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/maximo-spagnoli"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Maximo Spagnoli.</span> Programador junior con muchas ganas de adentrarse mas en el mundo de la progamacion. Espero ser considerado apto y estoy mas que listo para los desafios que se me presenten.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            06/08/2004
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +54 341 2801807
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            maxiispagnoli@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                           <a href="https://github.com/maximo-spagnoli">https://github.com/maximo-spagnoli</a> 
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Rosario, Santa Fe. Argentina.
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Analista de datos</span>
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>E-Commerce</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-code"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>            
+                    </div>
+                </div>
+            </div>
+            <button>
+               <a href="Archivos/Máximo Spagnoli.pdf" download="cv-maximospagnoli">Descargar CV
+                <i class="fa-solid fa-download"></i>
+               </a>  
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Lengaujes de programacion</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Node.js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profecionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Autodidacta</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Colegio Primario</h4>
+                        <span class="casa">Colegio San Ramon Nonato</span>
+                        <span class="fecha">2011 - 2017</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Colegio Secundario</h4>
+                        <span class="casa">Colegio Salesiano San Jose "2043"</span>
+                        <span class="fecha">2018 - 2023</span>
+                        <p>TITULO: Tecnico en informatica profesional y personal</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Universidad</h4>
+                        <span class="casa">Universidad Tecnologica Nacional</span>
+                        <span class="fecha">Comienzo 2024</span>
+                        <p>TITULO: Ingeniero en sistemas</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Analista de datos</h4>
+                        <span class="casa">Red Farmashop</span>
+                        <span class="fecha">Abril 2023 - Actualmente</span>
+                        <p>Me encargo de recopilar datos solicitados sobre toda la red de Farmashop y armar bases donde se muestren los mismos para luego ser analizados por el area correspondiente.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>E-commerce</h4>
+                        <span class="casa">Red Farmashop</span>
+                        <span class="fecha">Abril 2023 - Actualmente</span>
+                        <p>
+                            - Modificacion de productos,
+                            banners y botones en web.
+                        </p>
+                        <p>
+                            - Actualización de catálogos.
+                        </p>
+                        <p>
+                            - Actualizacion / modificacion de
+                            EAN, imagenes, descripciones y
+                            promociones en el sistema.
+                        </p>   
+                        <p>
+                            - Investigacion de mejoras.
+                            Análisis de la UX de la web
+                        </p>
+                        <p>
+                            TECNOLOGÍAS UTILIZADAS:
+                        <p>  
+                            - Php
+                        </p>
+                        <p>
+                            - MySQL
+                        </p>
+                        <p>
+                            - FTP
+                        </p>
+                        <p>
+                            - Wordpress
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Programador Frontend & Backend</h4>
+                        <span class="casa">Proyectos personales</span>
+                        <span class="fecha">2020 - Actualmente</span>
+                        <p>
+                            Realize varios proyectos de forma persoanl para mejorar
+                            y especializarme en diferentes lenguajes de programacion
+                            estos pueden ser vsitos en mi github.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/lennart-uecker-49bZDF_EgJU-unsplash.webp" alt="">
+                    <div class="overlay">
+                        <h3>Pagina de demostracion de zapatillas</h3>
+                        <p>Php/Css/Js</p>
+                        <a href="https://github.com/maximo-spagnoli/SneakersTMT">Aqui puedes ver el codigo</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/apple.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Calculadora de Apple</h3>
+                        <p>Html/Css/Js</p>
+                        <a href="https://github.com/maximo-spagnoli/proyecto-calculadora">Aqui puedes ver el codigo</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/caida-libre-fisica.webp"  alt="">
+                    <div class="overlay">
+                        <h3 >Calculo de Caida Libre</h3>
+                        <p>Python</p>
+                        <a href="https://github.com/maximo-spagnoli/CaidaLibre.Py">Aqui puedes ver el codigo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--
+    SECCION CONTACTO 
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                Formulario 
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                Mapa 
+                <div class="col">
+                    <img src="img/localidad.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Rondeau 1029, Rosario. Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +54 341 280-1807 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: maxiispagnoli@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/maximo-spagnoli"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/543412801807"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://twitter.com/maxiispagnoli"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/maxiiispagnoli/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/m%C3%A1ximo-spagnoli/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
